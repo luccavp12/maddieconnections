@@ -1,0 +1,147 @@
+.gamePageContainer {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.gamePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.centerItem {
+  margin-top: 70px;
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: #b3a7fe; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.connectionsCallToAction {
+  font-family: "nyt-karnak";
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* height: 100%; */
+  width: calc(3 * 8px + 4 * 22.5vw);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: calc(3 * 8px + 4 * 22.5vw);
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.cell {
+  /* margin: 10px; */
+  height: 100%;
+  width: 100%;
+  background-color: #efefe6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  -webkit-transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+  -ms-transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.mistakes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gameBottomButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+  /* height: 100%; */
+  gap: 10px;
+}
+
+.gameButton {
+  text-decoration: none;
+  text-decoration-line: none;
+  /* background-color: black; */
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1px 16px;
+  width: fit-content;
+  height: 3em;
+  font-size: 1em;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.deselectedGameButton {
+  text-decoration: none;
+  text-decoration-line: none;
+  /* background-color: black; */
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding: 1px 16px;
+  width: fit-content;
+  height: 3em;
+  font-size: 1em;
+  font-weight: 700;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  user-select: none;
+}

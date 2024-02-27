@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+  background-color: #b3a7fe;
+  height: 100vh;
+  width: 100%;
+}
+
+.menu-header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  height: 45px;
+  /* width: 100%; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.hamburgerMenuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 10px; */
+  /* width: 50px; */
+  /* padding: 0 10px; */
+  position: absolute;
+  left: 0px;
+}
+
+.hamburgerMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 2.5px;
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.NYTLogo {
+  width: 100%;
+}
+
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  
+}
+
+.centerItem {
+  margin-top: 80px;
+  width: 50vw;
+  height: 100vh;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.connectionsLogoContainer {
+  display: flex;
+  justify-content: center;
+  /* height: 80px; */
+  width: 100%;
+}
+
+.connectionsLogo {
+  background-image: url("https://www.nytimes.com/games-assets/v2/assets/icons/connections.svg");
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+  background-repeat: no-repeat;
+}
+
+.connectionsTitle {
+  font-size: min(2.25em, 110px);
+  font-weight: 700;
+  line-height: 1.04;
+  font-family: "NYT-KarnakCondensed";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.connectionsCallToAction {
+  font-family: "nyt-karnak";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.dateText {
+  font-family: "nyt-karnak";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: 800;
+}
+
+.playButton {
+  text-decoration: none;
+  text-decoration-line: none;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1px 16px;
+  width: min(9.375em,300px);
+  height: 3em;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blankPlayButton {
+  text-decoration: none;
+  text-decoration-line: none;
+  /* background-color: black; */
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1px 16px;
+  width: min(9.375em,300px);
+  height: 3em;
+  font-size: 1em;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
